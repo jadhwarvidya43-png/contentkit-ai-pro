@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { useAuth } from '../../context/AuthContext';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
             ContentKit AI Pro
           </span>
@@ -21,7 +21,7 @@ const Navbar = () => {
           {user ? (
             <>
               <Link
-                to="/profile"
+                href="/profile"
                 className="text-sm font-medium text-gray-900 dark:text-white hover:underline"
               >
                 {user.name}
@@ -35,11 +35,11 @@ const Navbar = () => {
             </>
           ) : (
             <>
-              <Link to="/login" className="text-sm bg-blue-600 hover:bg-blue-700 text-white font-medium py-1 px-3 rounded">
+              <Link href="/login" className="text-sm bg-blue-600 hover:bg-blue-700 text-white font-medium py-1 px-3 rounded">
                 Login
               </Link>
               <Link
-                to="/register"
+                href="/register"
                 className="ms-3 text-sm bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-3 rounded"
               >
                 Register
