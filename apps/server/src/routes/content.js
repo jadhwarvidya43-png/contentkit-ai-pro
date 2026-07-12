@@ -3,7 +3,7 @@ const router = express.Router();
 const multer = require('multer');
 const storageService = require('../services/storageService');
 const queueService = require('../services/queueService');
-const { requireAuth } = require('../middleware/auth');
+const { protect: requireAuth } = require('../middleware/authMiddleware');
 
 // Setup multer for memory storage (we will pipe it to MinIO)
 const upload = multer({
@@ -62,3 +62,4 @@ router.get('/media/:objectName', requireAuth, async (req, res) => {
 });
 
 module.exports = router;
+

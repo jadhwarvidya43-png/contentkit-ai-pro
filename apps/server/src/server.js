@@ -44,8 +44,8 @@ const app = express();
 
 // Sentry Request Handler (must be first middleware)
 const { Sentry } = require('./services/telemetry');
-app.use(Sentry.Handlers.requestHandler());
-app.use(Sentry.Handlers.tracingHandler());
+// app.use(Sentry.Handlers.requestHandler());
+// app.use(Sentry.Handlers.tracingHandler());
 
 // Core Middleware
 app.use(correlationId);
@@ -80,7 +80,7 @@ app.use('/api/brandkit', require('./routes/brandkit'));
 app.use('/api/workflows', require('./routes/workflows'));
 
 // Sentry Error Handler (must be before other error handlers)
-app.use(Sentry.Handlers.errorHandler());
+Sentry.setupExpressErrorHandler(app);
 
 // Health check route
 app.get('/health', (req, res) => {

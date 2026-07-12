@@ -35,13 +35,12 @@ const userSchema = new mongoose.Schema({
 });
 
 // Encrypt password using bcrypt pre-save
-userSchema.pre('save', async function(next) {
+userSchema.pre('save', async function() {
   if (!this.isModified('password')) {
-    return next();
+    return;
   }
   const salt = await bcrypt.genSalt(10);
   this.password = await bcrypt.hash(this.password, salt);
-  next();
 });
 
 // Match entered password
