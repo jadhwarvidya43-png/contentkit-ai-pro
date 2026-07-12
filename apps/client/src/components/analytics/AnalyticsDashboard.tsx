@@ -25,7 +25,7 @@ const mockData = [
   { name: 'Sun', views: 3490, engagement: 4300 },
 ];
 
-export function AnalyticsDashboard() {
+const AnalyticsDashboard = () => {
   return (
     <div className="space-y-6">
       {/* Top Stats */}
@@ -113,3 +113,6 @@ export function AnalyticsDashboard() {
     </div>
   );
 }
+
+export default AnalyticsDashboard;
+
