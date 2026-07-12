@@ -1,0 +1,6 @@
+node_modules
+.git
+.turbo
+apps/client
+*.log
+.DS_Store

@@ -1,0 +1,190 @@
+◇ injected env (5) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Server running in development mode on port 5000
+JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:70:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:17:27
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+Error: Not authorized, token failed
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:31:13
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:291:5)
+Error: Not authorized, no token
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:37:11
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:291:5)
+JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:70:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:17:27
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+Error: Not authorized, token failed
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:31:13
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:291:5)
+Error: User already exists
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\controllers\authController.js:28:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Error: User already exists
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\controllers\authController.js:28:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+JsonWebTokenError: invalid signature
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:17:27
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+Error: Not authorized, token failed
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:31:13
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:291:5)
+JsonWebTokenError: invalid signature
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:17:27
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+Error: Not authorized, token failed
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:31:13
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:291:5)
+Error: Invalid email or password
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\controllers\authController.js:64:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Error: Invalid email or password
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\controllers\authController.js:64:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+JsonWebTokenError: invalid signature
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:17:27
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+Error: Not authorized, token failed
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:31:13
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:291:5)
+JsonWebTokenError: invalid signature
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:17:27
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+Error: Not authorized, token failed
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:31:13
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:291:5)
+JsonWebTokenError: invalid signature
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:17:27
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+Error: Not authorized, token failed
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\middleware\authMiddleware.js:31:13
+    at asyncUtilWrap (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\router\index.js:291:5)
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\body-parser\lib\types\json.js:91:21)
+    at C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\body-parser\lib\read.js:162:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:227:14)
+    at invokeCallback (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:509:28)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)

@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "buildCommand": "npx turbo run build --filter=@contentkit/client...",
+  "installCommand": "npm install",
+  "outputDirectory": "apps/client/.next",
+  "ignoreCommand": "npx turbo-ignore",
+  "regions": ["iad1"]
+}

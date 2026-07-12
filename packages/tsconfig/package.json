@@ -1,0 +1,12 @@
+{
+  "name": "@contentkit/tsconfig",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "base.json",
+    "react-library.json",
+    "nextjs.json"
+  ]
+}

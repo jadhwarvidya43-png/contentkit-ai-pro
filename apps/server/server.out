@@ -1,0 +1,18 @@
+◇ injected env (5) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\controllers\projectController.js:48
+      shortPost': 'Short Facebook post',
+               ^^^^
+
+SyntaxError: Unexpected string
+    at wrapSafe (node:internal/modules/cjs/loader:1763:18)
+    at Module._compile (node:internal/modules/cjs/loader:1804:20)
+    at Object..js (node:internal/modules/cjs/loader:1961:10)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at Object.<anonymous> (C:\Users\Admin\OneDrive\Documents\New folder\contentkit-ai-pro\server\src\routes\projects.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+
+Node.js v24.15.0
